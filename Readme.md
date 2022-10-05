@@ -1,3 +1,3 @@
 NEW BRANCH
 
-NEW BRANCH with auth_error
+NEW BRANCH merge with master
