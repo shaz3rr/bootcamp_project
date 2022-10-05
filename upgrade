@@ -1,6 +1,7 @@
 testing branch upgrade
 
 
+<<<<<<< HEAD
 adding new line
 
 
@@ -12,3 +13,5 @@ adding line as another user
 WTF
 
 LETS continue on this project.
+=======
+>>>>>>> rebase
