@@ -2,7 +2,7 @@ version: '3'
 services:
   my-app:
     container_name: my-app
-    image: 949017487832.dkr.ecr.us-east-1.amazonaws.com/my-app:1.0
+    image: my-app:2.0
     ports:
       - 3000:3000
   mongodb:
