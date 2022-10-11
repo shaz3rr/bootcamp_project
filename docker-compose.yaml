@@ -33,8 +33,18 @@ services:
       - 8083:8083
     volumes:
       - nexus-data:/nexus-data
+  jenkins:
+    container_name: jenkins
+    image: jenkins/jenkins
+    ports:
+      - 8082:8080
+      - 50000:50000
+    volumes:
+      - jenkins_home:/var/jenkins
 volumes:
   mongo-data:
     driver: local
   nexus-data:
+    driver: local
+  jenkins_home:
     driver: local
